@@ -6,9 +6,8 @@ categories: portolabs portolabsorg
 ---
 # Our Mission
 
-PortoLabs is a safe harbor to gather ideas around generative AI. We are a team
-of AI specialists who want to develop responsible AI-based solutions that
-respect data sovereignity and allow full control of your projects, no matter
-whether you are an independent business or an AI enthusiast.
+At PortoLabs, we develop AI you can run and trust. Our focus is on responsible,
+self-hosted solutions that keep data sovereign and projects fully in your
+control, whether you are an independent organization or an AI enthusiast.
 
-We're preparing some content coming soon. Stay tuned!
+We will be posting updates regularly, so stay tuned!
