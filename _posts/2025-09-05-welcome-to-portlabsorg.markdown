@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Welcome to PortoLabs"
+title: "Welcome to PortoLabs"
+description: "Our mission and direction."
 date:   2025-09-05 17:34:33 +0200
-categories: portolabs portolabsorg
+categories: portolabs portolabsorg general
+author: PortoLabs Team
 ---
+
 # Our Mission
 
 At PortoLabs, we develop AI you can run and trust. Our focus is on responsible,

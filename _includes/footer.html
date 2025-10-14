@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; {{ site.time | date: "%Y" }} PortoLabs. All rights reserved.</p>
+    <div class="social">
+      {% for s in site.data.social %}
+        <a href="{{ s.url }}" target="_blank">{{ s.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>
+
