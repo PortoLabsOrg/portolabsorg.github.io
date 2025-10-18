@@ -1,0 +1,8 @@
+<div class="card project">
+  <h3>{{ include.project.name }}</h3>
+  <p>{{ include.project.description }}</p>
+  {% if include.project.link %}
+  <a href="{{ include.project.link }}" class="btn-sm">View</a>
+  {% endif %}
+</div>
+

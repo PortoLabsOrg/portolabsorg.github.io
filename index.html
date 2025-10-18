@@ -1,0 +1,33 @@
+---
+layout: home
+title: PortoLabs – Responsible AI, Locally Run
+---
+
+<section class="intro">
+  <div class="container">
+    <p>At PortoLabs, we develop AI you can run and trust. Our focus is on responsible, self-hosted solutions that keep data sovereign and projects fully in your control — whether you're an independent organization or an AI enthusiast.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      {% for project in site.data.projects limit:3 %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="latest">
+  <div class="container">
+    <h2>Latest Articles</h2>
+    <div class="grid">
+      {% for post in site.posts limit:3 %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+

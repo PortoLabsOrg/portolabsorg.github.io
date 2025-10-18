@@ -18,19 +18,36 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: PortoLabs
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  PortoLabs website. Welcome!
+title: "PortoLabs"
+description: "Responsible, self-hosted AI you can run and trust."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.portolabs.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username:
+email:
 github_username:  portolabsorg
 
-# Build settings
 theme: minima
+markdown: kramdown
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+sass:
+  style: compressed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
