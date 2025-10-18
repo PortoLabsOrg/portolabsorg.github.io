@@ -7,7 +7,7 @@ permalink: /projects/
   <div class="container">
     <h1>Our Projects</h1>
     <p>Each of our research and development projects reflects our focus on practical, responsible, and local-first AI systems.</p>
-    <p>At PortoLabs, we focus on practical, local-first AI systems. Below are a few of our key initiatives.</p>
+    <p>Below are a few of our key initiatives.</p>
 
     <div class="grid">
       {% for project in site.projects %}
