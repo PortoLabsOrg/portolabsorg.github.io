@@ -1,12 +1,3 @@
-- name: LocalGPT
-  description: A self-contained, open-source large language model stack for offline deployment.
-  link: "#"
-
-- name: EdgeVision
-  description: Computer vision models optimized for edge devices and private inference.
-  link: "#"
-
-- name: PortoCore
-  description: Lightweight inference framework for secure, local AI serving.
-  link: "#"
-
+# - name: LocalGPT
+#   description: A self-contained, open-source large language model stack for offline deployment.
+#   link: "#"
