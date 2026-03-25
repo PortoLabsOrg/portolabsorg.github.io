@@ -9,6 +9,7 @@ title: PortoLabs – Responsible AI, Locally Run
   </div>
 </section>
 
+{% if site.data.projects.size > 0 %}
 <section id="projects">
   <div class="container">
     <h2>Featured Projects</h2>
@@ -19,7 +20,9 @@ title: PortoLabs – Responsible AI, Locally Run
     </div>
   </div>
 </section>
+{% endif %}
 
+{% if site.posts.size > 0 %}
 <section id="latest">
   <div class="container">
     <h2>Latest Articles</h2>
@@ -30,4 +33,5 @@ title: PortoLabs – Responsible AI, Locally Run
     </div>
   </div>
 </section>
+{% endif %}
 
